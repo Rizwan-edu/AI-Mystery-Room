@@ -1,0 +1,108 @@
+/* AI Mystery Room - Detective Noir Dark/Gold Theme System */
+
+/* Global Surfaces */
+.surface-primary {
+  background-color: var(--bg-secondary, #101216) !important;
+  border-color: var(--border-color, rgba(245, 197, 66, 0.2)) !important;
+}
+
+.surface-secondary {
+  background-color: var(--bg-card, #17191F) !important;
+  border-color: var(--border-color, rgba(245, 197, 66, 0.2)) !important;
+}
+
+.surface-dark {
+  background-color: var(--bg-primary, #08090C) !important;
+}
+
+/* Card Styling */
+.card-dark {
+  background-color: var(--bg-card, #17191F);
+  border: 1px solid var(--border-color, rgba(245, 197, 66, 0.2));
+  border-radius: 1rem;
+  color: var(--text-primary, #F8FAFC);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-dark:hover {
+  border-color: rgba(245, 197, 66, 0.45);
+  box-shadow: 0 0 25px rgba(245, 197, 66, 0.15);
+}
+
+/* Primary Gold Button */
+.btn-gold {
+  background: linear-gradient(135deg, #F5C542 0%, #D97706 100%) !important;
+  color: #08090C !important;
+  font-weight: 700 !important;
+  border: 1px solid rgba(254, 240, 138, 0.4) !important;
+  box-shadow: 0 0 20px rgba(245, 197, 66, 0.3) !important;
+  transition: all 0.25s ease-in-out !important;
+}
+
+.btn-gold:hover {
+  filter: brightness(1.12);
+  box-shadow: 0 0 30px rgba(245, 197, 66, 0.45) !important;
+  transform: translateY(-1px);
+}
+
+/* Secondary Dark Button */
+.btn-dark {
+  background-color: #17191F !important;
+  color: #F5C542 !important;
+  border: 1px solid rgba(245, 197, 66, 0.3) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+  transition: all 0.25s ease-in-out !important;
+}
+
+.btn-dark:hover {
+  background-color: #20232B !important;
+  border-color: #F5C542 !important;
+  box-shadow: 0 0 20px rgba(245, 197, 66, 0.25) !important;
+}
+
+/* Form Inputs and Textareas */
+input, textarea, select {
+  background-color: #08090C !important;
+  color: #F8FAFC !important;
+  border-color: rgba(245, 197, 66, 0.25) !important;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #F5C542 !important;
+  box-shadow: 0 0 0 2px rgba(245, 197, 66, 0.25) !important;
+  outline: none !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #71717A !important;
+}
+
+/* Badges */
+.badge-gold {
+  background: rgba(245, 197, 66, 0.12);
+  border: 1px solid rgba(245, 197, 66, 0.3);
+  color: #F5C542;
+}
+
+.badge-amber {
+  background: rgba(217, 119, 6, 0.15);
+  border: 1px solid rgba(217, 119, 6, 0.35);
+  color: #FBBF24;
+}
+
+/* Statistics Box */
+.stats-banner {
+  background-color: rgba(16, 18, 22, 0.85);
+  border: 1px solid rgba(245, 197, 66, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+/* High Contrast Fallback for Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: #F8FAFC;
+}
+
+p, span, label {
+  color: inherit;
+}

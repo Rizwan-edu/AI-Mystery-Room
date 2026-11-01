@@ -1,0 +1,24 @@
+{
+  "name": "ai-mystery-room-server",
+  "version": "1.0.0",
+  "description": "Backend API for AI Mystery Room Investigation Game",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.test.js",
+    "check-port": "node scripts/portManager.js check 5000",
+    "kill-port": "node scripts/portManager.js kill 5000"
+  },
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.10.1",
+    "zod": "^3.24.2"
+  }
+}

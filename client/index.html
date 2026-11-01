@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <title>AI Mystery Room - Neural Detective Bureau</title>
+    <!-- Critical Dark Theme Base Style to Prevent Light Canvas Flashing -->
+    <style>
+      :root {
+        color-scheme: dark;
+        background-color: #08090C;
+        color: #F8FAFC;
+      }
+      html, body, #root {
+        background-color: #08090C !important;
+        color: #F8FAFC !important;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body class="bg-[#08090C] text-[#F8FAFC]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

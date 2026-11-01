@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@import "./App.css";
+
+@theme {
+  --color-bg-primary: #08090C;
+  --color-bg-secondary: #101216;
+  --color-bg-card: #17191F;
+  --color-accent-gold: #F5C542;
+  --color-accent-amber: #D97706;
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #A1A1AA;
+}
+
+:root {
+  color-scheme: dark;
+  --bg-primary: #08090C;
+  --bg-secondary: #101216;
+  --bg-card: #17191F;
+  --accent-gold: #F5C542;
+  --accent-amber: #D97706;
+  --text-primary: #F8FAFC;
+  --text-secondary: #A1A1AA;
+  --border-color: rgba(245, 197, 66, 0.2);
+  --gold-glow: rgba(245, 197, 66, 0.25);
+
+  /* Compatibility aliases for existing components */
+  --bg-main: var(--bg-primary);
+  --border-noir: var(--border-color);
+  --gold-primary: var(--accent-gold);
+  --amber-accent: var(--accent-amber);
+}
+
+html, body, #root {
+  background-color: #08090C !important;
+  color: #F8FAFC !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color-scheme: dark;
+}
+
+/* Atmospheric Detective Noir Background Glows */
+.noir-bg {
+  background-color: #08090C;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(245, 197, 66, 0.05) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(217, 119, 6, 0.04) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(16, 18, 22, 0.85) 0%, #08090C 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFFBEB 0%, #F5C542 50%, #D97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 20px rgba(245, 197, 66, 0.15), inset 0 0 15px rgba(245, 197, 66, 0.05);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(245, 197, 66, 0.3);
+  border-color: rgba(245, 197, 66, 0.6);
+}
+
+/* Custom Noir Gold Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #17191F;
+  border-radius: 4px;
+  border: 1px solid rgba(245, 197, 66, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #232734;
+}
