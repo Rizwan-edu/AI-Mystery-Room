@@ -145,17 +145,34 @@ flowchart TD
 
 ## 📸 Screenshots & UI Showcase
 
-| View | Description | Preview |
-| :--- | :--- | :---: |
-| **1. Command HQ** | Atmospheric landing hero, mission briefing, and interactive difficulty cards. | [Inspect](docs/screenshots/README.md#1-home-page--mission-command) |
-| **2. Case Commission** | Custom premise formulation input, quick inspiration chips, and difficulty selector. | [Inspect](docs/screenshots/README.md#2-case-commission--ai-case-synthesis) |
-| **3. Investigation Room** | Confidential case dossier, story briefing, and suspect profiles with alibis. | [Inspect](docs/screenshots/README.md#3-investigation-room--suspect-dossiers) |
-| **4. Evidence Board** | Interactive clue cards displaying inspection state and +5 point discovery bonuses. | [Inspect](docs/screenshots/README.md#4-forensic-evidence-board) |
-| **5. Hint Bureau** | Progressive hints panel with active penalty warnings (-10 pts per unlock). | [Inspect](docs/screenshots/README.md#5-progressive-hint-bureau) |
-| **6. Accusation Modal** | Binding accusation dialog requiring definitive suspect selection and confirmation. | [Inspect](docs/screenshots/README.md#6-binding-accusation-modal) |
-| **7. Results & Debrief** | Complete score breakdown, culprit revelation, and Gemini forensic deduction. | [Inspect](docs/screenshots/README.md#7-results-forensic-debrief--score-audit) |
+<div align="center">
 
-> 📁 High-resolution previews and capture instructions are maintained in [`docs/screenshots/README.md`](docs/screenshots/README.md).
+### 1. Command HQ & Mission Briefing
+![Home Page Hero](docs/screenshots/01-home-page.png)
+
+<br/>
+
+### 2. Case Commission Desk (AI Synthesis Input)
+![Case Commission](docs/screenshots/02-case-creation.png)
+
+<br/>
+
+### 3. Operational Blueprint (Four-Phase Protocol)
+![Operational Blueprint](docs/screenshots/03-operational-blueprint.png)
+
+<br/>
+
+### 4. Investigation Difficulty Tiers (Adaptive Configurations)
+![Investigation Difficulty Tiers](docs/screenshots/04-difficulty-tiers.png)
+
+<br/>
+
+### 5. Engineered Integrity & Server Security Architecture
+![Security Architecture](docs/screenshots/05-security-architecture.png)
+
+</div>
+
+> 📁 High-resolution previews and gallery details are maintained in [`docs/screenshots/README.md`](docs/screenshots/README.md).
 
 ---
 
