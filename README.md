@@ -11,10 +11,10 @@
 [![Express 4](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![MongoDB Atlas](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/atlas)
 [![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=google-gemini&logoColor=white)](https://ai.google.dev/)
-[![Zod](https://img.shields.io/badge/Zod_Validation-3E67B1?style=for-the-badge&logo=zod&logoColor=white)](https://zod.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg?style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-mystery-room.vercel.app)
+[![API Status](https://img.shields.io/badge/Backend_API-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://ai-mystery-room-api-0juz.onrender.com/api/health)
 
-[Live Demo](#-deployment-guide) • [Architecture](docs/architecture/system-architecture.md) • [Screenshots](docs/screenshots/README.md) • [API Reference](#-api-reference)
+[🌐 Live Demo (Vercel)](https://ai-mystery-room.vercel.app) • [📡 Backend Health Check (Render)](https://ai-mystery-room-api-0juz.onrender.com/api/health) • [🏛️ Architecture](docs/architecture/system-architecture.md) • [📸 Screenshots](docs/screenshots/README.md) • [📡 API Reference](#-api-reference)
 
 </div>
 
@@ -428,7 +428,7 @@ npm test
    - Build Command: `npm run build`
    - Output Directory: `dist`
 5. Under **Environment Variables**, add:
-   - `VITE_API_URL`: `https://your-backend-service.onrender.com/api`
+   - `VITE_API_URL`: `https://ai-mystery-room-api-0juz.onrender.com/api`
 6. Click **Deploy**.
 
 ### Deploying Backend (Render)
